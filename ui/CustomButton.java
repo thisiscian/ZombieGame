@@ -5,7 +5,7 @@ import java.awt.event.*;
 
 import java.util.ArrayList;
 
-public class CustomButton extends JComponent implements MouseListener, KeyListener
+public class CustomButton extends JComponent implements MouseListener
 {
 	private Dimension size = new Dimension(30,30);
 	private ArrayList<ActionListener> listeners = new ArrayList<ActionListener>();
@@ -23,7 +23,6 @@ public class CustomButton extends JComponent implements MouseListener, KeyListen
 		toggle = tog;
 		enableInputMethods(true);
 		addMouseListener(this);
-		addKeyListener(this);
 		setFocusable(true);
 		requestFocusInWindow();	
 	}
@@ -34,7 +33,6 @@ public class CustomButton extends JComponent implements MouseListener, KeyListen
 		txt = text;
 		enableInputMethods(true);
 		addMouseListener(this);
-		addKeyListener(this);
 		setFocusable(true);
 	}
 
@@ -43,7 +41,6 @@ public class CustomButton extends JComponent implements MouseListener, KeyListen
 		super();
 		enableInputMethods(true);
 		addMouseListener(this);
-		addKeyListener(this);
 		setFocusable(true);
 	}
 
@@ -94,32 +91,26 @@ public class CustomButton extends JComponent implements MouseListener, KeyListen
 		return getPreferredSize();
 	}
 
-	public void keyTyped(KeyEvent e)
+	public void pressed()
 	{
-				notifyListeners(e);
-				System.out.println("hello");
-				char c = e.getKeyChar();
-				System.out.println(c);
-				if ( c == Character.toLowerCase(txt) && toggle)
-				{
-					pressed = !pressed;
-				}
-				else if (c == Character.toLowerCase(txt))
-				{
-					pressed = true;
-				}
-				repaint();
-	}
-	public void keyReleased(KeyEvent e)
-	{
-		System.out.println("keyReleased");
-		if(!toggle){pressed = false;}
+		if(toggle)
+		{
+			pressed = !pressed;
+		}
+		else
+		{
+			pressed = true;
+		}
 		repaint();
 	}
-	public void keyPressed(KeyEvent e){}
-	public void mouseClicked(MouseEvent e)
+	
+	public void released()
 	{
+		if(!toggle) pressed = false;
+		repaint();
 	}
+	
+	public void mouseClicked(MouseEvent e){}
 	public void mousePressed(MouseEvent e)
 	{
 		notifyListeners(e);
