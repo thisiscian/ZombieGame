@@ -12,7 +12,8 @@ public class CustomFrame extends JFrame implements KeyListener
 	CustomButton W;
 	public CustomFrame()
 	{
-		super("Fullscreen");
+		super("Zombie Game");
+		setUndecorated(true);
 		pack();
 		enableInputMethods(true);
 		addKeyListener(this);
