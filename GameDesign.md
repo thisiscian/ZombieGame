@@ -17,16 +17,14 @@ YouWishYouWereDeath
 
 Weapons
 -------
-	Melee Weapons
-	-------------
+	**Melee Weapons**
 		loads of them
 		potentially have hack'n'slash style combos
 			low combos lead to stronger zombies
 			high combos lead to zombies gaining less points
 			"zombos"
 			some zombies will try to break your combo by avoiding you 
-	Guns
-	---
+	**Guns**
 		click on zombies for more points
 		less points means better zombies
 	Want to save new weapons for dire times
