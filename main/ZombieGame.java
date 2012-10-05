@@ -4,26 +4,15 @@ import java.awt.*;
 
 import ui.CustomButton;
 import ui.CustomFrame;
+import ui.FullScreen;
 
 public class ZombieGame
 {
-	private static void createAndShowGUI()
+	private static void addElementsToDisplay(FullScreen screen)
 	{
-		CustomFrame frame = new CustomFrame();
-		frame.addComponents();
-		frame.getContentPane().setPreferredSize( Toolkit.getDefaultToolkit().getScreenSize());
-		frame.pack();
-		frame.setResizable(false);
-
-			Point p = new Point(-1, 0);
-      SwingUtilities.convertPointToScreen(p, frame.getContentPane());
-      Point l = frame.getLocation();
-      l.x -= p.x;
-      l.y -= p.y;
-      frame.setLocation(l);
-
-		frame.setVisible(true);
+		CustomButton Q = new CustomButton('Q', screen);	
 	}
+
 	public static void main(String[] args)
 	{
 	
@@ -33,7 +22,10 @@ public class ZombieGame
 			{
 				public void run()
 				{
-					createAndShowGUI();
+					FullScreen screen = new FullScreen();
+					addElementsToDisplay(screen);
+					screen.display();
+					//createAndShowGUI();
 				}
 			}
 		);
