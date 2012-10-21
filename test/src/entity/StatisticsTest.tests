@@ -1,0 +1,5 @@
+everything should be 1 at initialisation
+setXXX() should set the correct values
+should be able to add and take health
+should be able to add health up until the maximum health value
+shouldn't be able to go below 0 health
