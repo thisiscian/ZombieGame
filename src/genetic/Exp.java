@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class Test {
+public class Exp {
 
 /*
 * Currently implemented is an experiment with gene "evolution".
@@ -23,7 +23,7 @@ public class Test {
 
     Zombie[] y = new Zombie[5];
 
-    for(int j=0; j<10000; j++) {
+    for(int j=0; j<1000000; j++) {
       for (int i=0; i<5; i++) {
         y[i] = new Zombie(-1);
       }
