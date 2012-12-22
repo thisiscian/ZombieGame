@@ -87,7 +87,7 @@ class Player {
 
 class Screen {
   // this should take the necessary things in and update the
-  //  screen accortingly
+  //  screen accordingly
 
   GameLogic game;
 }
