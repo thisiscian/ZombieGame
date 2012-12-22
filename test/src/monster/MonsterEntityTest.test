@@ -1,0 +1,6 @@
+should return correct statistics
+should be able to set statistics
+should be able to add health
+should be able to take health
+shouldn't be able to go above maximum health
+shouldn't be able to go below 0 health

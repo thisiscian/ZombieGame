@@ -1,0 +1,14 @@
+should be able to return a random monster from the pool
+should be able to return a specific monster from the pool
+	should error if asks for monster number greater than pool size
+should be able to generate and return boss from the pool
+	boss should have it's best stat maxed out
+should be able to able to generate new monster based on fitness
+	should interbreed current monsters
+should develop several different 'species' of monsters
+should trend to a roughly constant number of species
+should be able to remove monsters based on fitness
+should be able to set monster pool size
+
+should be fastish to generate new monsters
+
