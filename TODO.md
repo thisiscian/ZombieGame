@@ -69,17 +69,17 @@ Requirements Capture
     * aim where you are facing (ala hammerwatch)
     * player can rebind keys
     * buttons
-      ** move (wasd | left stick)
-      ** easily accessible primary attack (space | RT)
-      ** secondary attacks (q | RB)
-      ** interact (e | A)
-      ** inventory (tab | B)
-      ** main menu / pause (esc | start)
-      ** strafe (ala hammerwatch) (shift | LT)
-      ** stationary attack (ctrl | LB)
-      ** dodge (c | X)
-      ** reload (r | Y)
-      ** quick select (1..4 | dpad)
+        + move (wasd | left stick)
+        + easily accessible primary attack (space | RT)
+        + secondary attacks (q | RB)
+        + interact (e | A)
+        + inventory (tab | B)
+        + main menu / pause (esc | start)
+        + strafe (ala hammerwatch) (shift | LT)
+        + stationary attack (ctrl | LB)
+        + dodge (c | X)
+        + reload (r | Y)
+        + quick select (1..4 | dpad)
       
  - audio
     * ambient music
