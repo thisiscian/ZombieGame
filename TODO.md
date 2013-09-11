@@ -25,8 +25,8 @@ Requirements Capture
     * Hardcore Mode
         + play in same level as previous character, zombiefied 'you' exists
     * dungeon crawler with monsters that evolve
-      ** dungeon crawlers
-          *** stats (strength, intelligence, etc)
+        + dungeon crawlers
+            + stats (strength, intelligence, etc)
           *** levelling (stat increase)
           *** classless (player starts as the same character at the start)
           *** randomized rooms
@@ -39,7 +39,7 @@ Requirements Capture
           *** player needs to eat
           *** player needs to sleep
           *** maybe allow player to barricade
-      ** evolving monsters
+        + evolving monsters
           *** randomized starting collection of 'basic' zombies
           *** stats (at least the same as the player)
           *** wide range of abilities to gain through evolution
