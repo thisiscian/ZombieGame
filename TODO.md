@@ -97,26 +97,26 @@ Requirements Capture
     * isometric
     * dynamic lighting, for stationary objects (walls, doors), not entities
     * sprites
-      ** player sprite
-      ** zombie sprites
-        *** list of sprite body parts for zombies to be generated with
-      ** item sprites
-      ** sprite animations
-        *** shooting
-        *** swinging
-        *** running
-        *** strafing
-        *** dodging
-        *** taking damange
-        *** picking up items
-        *** opening doors
-        *** using item
-        *** jumping (zombies)
-        *** reloading 
-        *** opening inventory
-        *** dying
-        *** eating
-        *** sleeping
+        ** player sprite
+        ** zombie sprites
+            + list of sprite body parts for zombies to be generated with
+        ** item sprites
+        ** sprite animations
+            + shooting
+            + swinging
+            + running
+            + strafing
+            + dodging
+            + taking damange
+            + picking up items
+            + opening doors
+            + using item
+            + jumping (zombies)
+            + reloading 
+            + opening inventory
+            + dying
+            + eating
+            + sleeping
     * post apocalyptic, dark, gritty, quasi-realistic
     * HUD
       ** map
