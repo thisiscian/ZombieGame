@@ -30,7 +30,7 @@ Requirements Capture
             + levelling (stat increase)
             + classless (player starts as the same character at the start)
             + randomized rooms
-                **** randomly generate specifically sized areas (chunks) and populate with buildings etc
+                * randomly generate specifically sized areas (chunks) and populate with buildings etc
             + randomized loot
             + exploring, map of dungeon that grows as you explore
             + enemies to fight
@@ -46,18 +46,18 @@ Requirements Capture
             + melee and ranged zombies
             + no magic
             + appearance will change through evolution
-                **** abilities and stats are directly linked to appearance
+                * abilities and stats are directly linked to appearance
             + Artificial Intelligence
             + pool of zombies to select from when spawning a zombie in
             + 'successful' zombies breed into the pool and produce slightly random offspring
             + change in response to player actions
-                **** want zombies to breed more if they survive longer against specific weapons;
-            **** this means that player should save good weapons for emergencies
-          *** change in response to environment
-          *** change in response to individual zombie interaction
-          *** can work as group or alone
-          *** can stalk player
-          *** can affect other zombies
+                * want zombies to breed more if they survive longer against specific weapons;
+                * this means that player should save good weapons for emergencies
+            + change in response to environment
+            + change in response to individual zombie interaction
+            + can work as group or alone
+            + can stalk player
+            + can affect other zombies
 
  - user interaction
     * keyboard only interaction
