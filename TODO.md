@@ -83,25 +83,25 @@ Requirements Capture
       
  - audio
     * ambient music
-      ** situationally dependent
-      ** 8-bit music for the moment
+      + situationally dependent
+      + 8-bit music for the moment
     * sound effects
-      ** player getting hurt
-      ** zombie moans
-      ** explosions
-      ** destroy object
-      ** door opening... etc
+      + player getting hurt
+      + zombie moans
+      + explosions
+      + destroy object
+      + door opening... etc
     
  - graphical display
     * multiple resolutions
     * isometric
     * dynamic lighting, for stationary objects (walls, doors), not entities
     * sprites
-        ** player sprite
-        ** zombie sprites
+        + player sprite
+        + zombie sprites
             + list of sprite body parts for zombies to be generated with
-        ** item sprites
-        ** sprite animations
+        + item sprites
+        + sprite animations
             + shooting
             + swinging
             + running
@@ -119,15 +119,15 @@ Requirements Capture
             + sleeping
     * post apocalyptic, dark, gritty, quasi-realistic
     * HUD
-      ** map
-      ** health
-      ** stamina
-      ** hunger
-      ** quick weapons
-      ** currently equipped weapon
-      ** need to know which way you are facing
-      ** health bar of current zombie attacking
-      ** numbers for damage taken/healed
+      + map
+      + health
+      + stamina
+      + hunger
+      + quick weapons
+      + currently equipped weapon
+      + need to know which way you are facing
+      + health bar of current zombie attacking
+      + numbers for damage taken/healed
     * levels/background art
     * camera moves with player
 
