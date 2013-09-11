@@ -21,9 +21,9 @@ Requirements Capture
  - gameplay: how the game is played
     * line of sight for player
     * Normal Mode
-      ** generates new world for you to play in
+        + generates new world for you to play in
     * Hardcore Mode
-      ** play in same level as previous character, zombiefied 'you' exists
+        + play in same level as previous character, zombiefied 'you' exists
     * dungeon crawler with monsters that evolve
       ** dungeon crawlers
           *** stats (strength, intelligence, etc)
